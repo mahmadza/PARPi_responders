@@ -1,2 +1,2 @@
-# ERpositive
-Computational analyses to explore whether there's a possibility of treating ER positive breast tumours with PARP inhibitor compound class
+# PARPi_responders
+Computational analyses to explore whether possibility of treating non-(BRCA1/2,PALB2) breast tumours with PARP inhibitor compound class.
