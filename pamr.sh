@@ -1,12 +1,7 @@
-
-
-
-
-
+#######################################################################################
 #investigate the differential genes expressed in the different clusters
 #use pamr R package to explore whether gene expression can separate these clusters
-
-cd ~/work/tumor_project/data/ERpos_analysis
+#######################################################################################
 
 #from the heatmap, manually determine the cluster boundaries
 #and appropriately separate the samples into clusters
