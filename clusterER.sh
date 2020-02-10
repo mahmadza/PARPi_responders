@@ -1,8 +1,6 @@
-
-
-
-
-#cluster ER+ samples using mutational signatures
+##############################################################
+#      cluster ER+ samples using mutational signatures
+##############################################################
 
 cd ~/work/tumor_project/data/redo_samples/9_Strelka2_indels
 
