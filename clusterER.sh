@@ -241,8 +241,7 @@ dev.off()
 
 
 #"
-
-
+#do this in Shell...
 ( echo -en "\tPAM50\tcarrier\tIntClust\tIMPRES\tHRDscore\tSNVs\tindels\tdels\tins\n"
   cat ${x}_order_${method} | while read l; do
 
