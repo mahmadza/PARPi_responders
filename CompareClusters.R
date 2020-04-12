@@ -81,8 +81,7 @@ wilcox.test(d$cluster2,d$cluster3)
 W = 1608, p-value = 0.0003227
 
 
-
-#perform correlation plot between SNVs and immune scores
+#perform correlation plot between #SNVs and immune scores
 param="SNVs"
 d=read.table(paste0(holder,"_",param,"_summary"))
 param="ESTIMATE"
@@ -99,7 +98,5 @@ cor.test(d$cluster4,e$cluster4)
 
 
 #nothing interesting....
-
-
 
 ########################
