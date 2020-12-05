@@ -33,7 +33,7 @@ cat ../../../annotations/Study_metadata_8.5.19.csv | \
   done ) > ${x}_heatmap
 
 
-
+#enter R here, or copy and paste these codes to another window with R running
 R
 
 library(gplots)
@@ -87,6 +87,8 @@ method=ward.D
 
   done ) > ${x}_HRD_${method}
 
+
+#enter R here, or copy and paste these codes to another window with R running
 R
 my.cex=0.5
 curr_method="ward.D"
@@ -124,6 +126,7 @@ dev.off()
   ) > ${x}_IntClust_${method}
 
 
+#enter R here, or copy and paste these codes to another window with R running
 R
 curr_method="ward.D"
 e<-read.table(paste0(holder,"_IntClust_",curr_method))
@@ -171,7 +174,7 @@ dev.off()
   echo -en "Class_NA\t-2\t-2\n"
   ) > ${x}_PAM50_${method}
 
-
+#enter R here, or copy and paste these codes to another window with R running
 R
 curr_method="ward.D"
 e<-read.table(paste0(holder,"_PAM50_",curr_method))
@@ -241,8 +244,7 @@ dev.off()
 
 
 #"
-
-
+#do this in Shell...
 ( echo -en "\tPAM50\tcarrier\tIntClust\tIMPRES\tHRDscore\tSNVs\tindels\tdels\tins\n"
   cat ${x}_order_${method} | while read l; do
 
@@ -293,10 +295,6 @@ for(i in seq(2,9))
 }
 
 dev.off()
-
-
-
-
 
 
 
